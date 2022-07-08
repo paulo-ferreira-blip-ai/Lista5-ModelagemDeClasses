@@ -5,5 +5,7 @@ public class MainQuadrado {
         Quadrado q1 = new Quadrado();
         q1.tamanhoDoLado = 30;
         q1.area();
+
+        System.out.println("A aréa do seu quadrado é: " + q1.area());
     }
 }
