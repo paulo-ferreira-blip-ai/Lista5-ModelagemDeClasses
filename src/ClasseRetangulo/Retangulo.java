@@ -9,8 +9,15 @@ public class Retangulo {
         this.Altura = 0;
     }
 
-    public void areaDoRetangulo(){
-        System.out.println("A aréa do retangulo é: " + (Base * Altura));
+    public double areaDoRetangulo(){
+        return Base * Altura;
+
 
     }
+    public double perimetroDoRetangulo(){
+        return 2 *(Base+Altura);
+
+
+    }
+    //public void
 }
